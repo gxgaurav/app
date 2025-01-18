@@ -1,4 +1,4 @@
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxQL1hQ-rBt4U44TT1nVgdEKJ4Osu2OQ5q6ZFxpZlKvZ3-M3pDmjBCUHXUWEOOwpUes/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzCZmJG_KE5Nj-f5usHG2OoApiLx6n3XNH6QHtKuGYalrJvgj7sLNeJAi_xWedF-Mo-/exec";
 if (localStorage.getItem('fx_local')) {
     window.location.href = 'index.html';
 }
