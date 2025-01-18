@@ -14,7 +14,7 @@ async function initialize() {
     if (localUsername) {
         const userData = await fetchUserData(localUsername);
         if (userData && userData.match) {
-            document.getElementById('counter').innerText = userData.password || 'N/A';
+            document.getElementById('counter').innerText = userData.password || '0';
             document.getElementById('userId').innerText = userData.id || '';
         } else {
             error('User not found or not authorized.');
