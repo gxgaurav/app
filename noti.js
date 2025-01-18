@@ -17,7 +17,7 @@ async function initialize() {
             document.getElementById('counter').innerText = userData.password || 'N/A';
             document.getElementById('userId').innerText = userData.id || '';
         } else {
-            alert('User not found or not authorized.');
+            error('User not found or not authorized.');
         }
     } else {
         alert('No user data found in local storage.');
